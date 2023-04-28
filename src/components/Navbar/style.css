@@ -1,0 +1,101 @@
+.hamburger-menu{
+  display: none;
+}
+
+
+.navbar-container {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding: 0 15px;     
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.5); 
+    height: 60px;
+    background:transparent;
+    position:fixed;
+  }
+  
+  
+  .nav-buttons ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 1.5rem;
+   }
+   
+  
+   .nav-buttons ul li a {
+    margin: 3rem;
+    margin-right: 2rem;
+    transition: 0.5s;
+    color: #ffff;
+    text-transform: capitalize;
+    font-style: unset;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 600;
+    padding-bottom: 12px;
+   }
+  
+   .nav-buttons ul li a:hover {
+     font-weight: 650;
+     box-shadow: 0 4px 0px 0 rgba(253, 250, 250, 0.993),
+       0 0px 0px 0 rgba(255, 255, 255, 0.19); 
+   }
+   
+   .nav-buttons ul li Button {
+   background: #40E7E2;
+   border: 2px solid #DDFFFE;
+   border-radius: 100px;
+   text-align: center;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 700;
+   color: #001252;
+   margin-right: 3 rem;
+   margin-left: 2.5rem;
+   padding-left: 30px;
+   padding-right: 30px;
+   }
+   
+   .nav-buttons ul li Button:hover{
+     background-color: #3edad4;
+   } 
+   
+   
+   /* Logo */
+   .logo {
+    height: 4rem;
+    margin-left: 3rem;
+   }
+   
+   .logo a {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+   }
+   
+   .logo a span {
+    font-size: 2.5rem;
+    color:   #ffffff;
+    font-style: italic;
+   }
+    @media all and (max-width: 768px){
+      .nav-buttons ul{
+        display: none;
+      }
+    }
+   
+  
+   
+   
+  
